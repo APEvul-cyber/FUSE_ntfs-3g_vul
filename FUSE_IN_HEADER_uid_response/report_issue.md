@@ -68,3 +68,7 @@ if (!scx->mapping[MAPUSERS]) {
 ```
 
 This aligns with native NTFS behavior on Windows where even Administrator accounts are subject to ACL checks (access is granted through explicit ACEs, not a blanket bypass).
+
+---
+
+**Full PoC and scripts**: [GitHub Repository](https://github.com/APEvul-cyber/FUSE_ntfs-3g_vul/tree/main/FUSE_IN_HEADER_uid_response)

@@ -93,3 +93,7 @@ if (!scx->mapping[MAPUSERS]) {
 ```
 
 The most conservative approach is to remove the `uid==0` shortcut entirely and always evaluate the NTFS security descriptor, as native Windows NTFS does not have an analogous "skip ACL for Administrator" bypass at the filesystem level.
+
+---
+
+**Full PoC and scripts**: [GitHub Repository](https://github.com/APEvul-cyber/FUSE_ntfs-3g_vul/tree/main/FUSE_IN_HEADER_uid_response)
